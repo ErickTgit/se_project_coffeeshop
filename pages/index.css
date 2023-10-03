@@ -169,3 +169,116 @@
   font-size: 20px;
   line-height: 30px;
 }
+
+.reservation {
+  padding: 100px 0 120px;
+  background-image: url(/images/background_reservation.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #d9e7ff;
+}
+
+.reservation__title {
+  margin: 0 0 80px;
+  text-align: center;
+  font-family: "Inter", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__form {
+  margin: 0 auto;
+  border-color: #838383;
+}
+
+.form {
+  max-width: 385px;
+}
+
+.form__fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.form__label {
+  margin-bottom: 32px;
+  display: block;
+  font-family: "Inter" "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  padding: 0 0 0 20px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  height: 60px;
+  border-radius: 4px;
+}
+
+.form__input::placeholder {
+  font-family: "Inter" "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+
+.form__button {
+  width: 100%;
+  padding: 0;
+  border-radius: 4px;
+  margin-bottom: 32px;
+  height: 60px;
+  font-family: "Inter" "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+  background-color: #2f80ed;
+  opacity: 100%;
+  transition: opacity 0.6s linear;
+}
+
+.form__button:hover {
+  opacity: 70%;
+}
+
+.form__label_type_checkbox {
+  display: flex;
+  justify-content: center;
+}
+
+.form__label .form__label_checkbox {
+  height: 20px;
+  width: 20px;
+  border-radius: 2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.form__label_type_checkbox input:checked ~ .form__checkbox_visible {
+  background-image: url(/images/check.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.form__checkbox_visible {
+  height: 20px;
+  width: 20px;
+  border-radius: 2px;
+  background-color: #2f80ed;
+  margin-right: 12px;
+}
