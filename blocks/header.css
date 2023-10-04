@@ -1,3 +1,19 @@
+@keyframes Slide-in {
+  from {
+    transform: translate(0, 700px);
+    opacity: 0;
+  }
+
+  70% {
+    transform: translate(0, -50px);
+  }
+
+  to {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
 .header {
   padding: 30px 80px 40px;
   display: flex;
@@ -19,6 +35,7 @@
   line-height: 72px;
   letter-spacing: -0.6px;
   z-index: 2;
+  animation: Slide-in 3.3s ease-in-out;
 }
 
 .header__description {
@@ -30,6 +47,7 @@
   line-height: 30px;
   margin: 28px 0 0;
   z-index: 1;
+  animation: Slide-in 3.6s ease-in-out;
 }
 
 .header__image {
@@ -39,6 +57,12 @@
   top: 124px;
   right: 5px;
   z-index: 0;
+  animation: Slide-in 2s ease-in-out;
+  transition: 1.2s ease-in-out;
+}
+
+.header__image:hover {
+  transform: scale(105%);
 }
 
 .header__span-accent {
