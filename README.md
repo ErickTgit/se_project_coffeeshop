@@ -13,4 +13,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+I would like to add a few more animations to really make the page feel alive, while not having too many as to seem unprofessional. I like websited I visit to feel interactive and alive, so that something I try to implement into my work unless otherwise stated.
