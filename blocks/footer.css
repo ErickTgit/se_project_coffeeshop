@@ -39,7 +39,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 0px;
+  line-height: 20px;
 }
 
 .footer__social-icon {
@@ -58,6 +58,7 @@
   color: white;
   text-decoration: none;
   transition: color white 1s ease-in-out;
+  align-items: center;
 }
 
 .footer__social-link:hover {
