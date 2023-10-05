@@ -75,20 +75,11 @@
   appearance: none;
   background-color: #fff;
   margin-right: 12px;
+  border: 1px;
+  border-style: solid;
 }
 
 .form__checkbox:checked {
-  background: url("../images/check.svg") no-repeat center;
-  background-color: #2f80ed;
-}
-
-.form__checkbox_visible {
-  border-radius: 2px;
-  background-color: #2f80ed;
-  margin-right: 12px;
-}
-
-.form__label_type_checkbox input:checked ~ .form__checkbox_visible {
   background: url("../images/check.svg") no-repeat center;
   background-color: #2f80ed;
 }
